@@ -4,6 +4,7 @@ export const Main = styled.main`
   background-color: #212529;
   height: 100vh;
 
+
   @media (max-width: 600px) {
     height: 100%;
   }
@@ -20,11 +21,11 @@ export const Section = styled.section`
 
   div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     border: 3px dashed #c23112;
-    width: 70vw;
-    height: 60vh;
+    width: 90vw;
+    height: 70vh;
 
     @media (max-width: 600px) {
       flex-direction: column;
@@ -34,11 +35,11 @@ export const Section = styled.section`
     }
   }
 
-  h1 {
-    width: 40vw;
+  h2 {
+    width: 50vw;
 
     @media (max-width: 600px) {
-      font-size: 70%;
+      font-size: 50%;
     }
   }
 
@@ -53,7 +54,7 @@ export const Section = styled.section`
 
     @media (max-width: 600px) {
       width: 45vw;
-      height: 40vh;
+      height: 35vh;
     }
   }
 `;

@@ -10,7 +10,7 @@ export default function Inicio() {
 
         <S.Section>
             <div>
-              <h1>Bem-vindo, eu sou <span>Brenda Ventura</span></h1>         
+              <h2>Olá, meu nome é <span>Brenda Ventura</span> e estou muito entusiasmada em entrar no mundo do desenvolvimento front end.</h2>         
             
               <img src={Brenda} alt="" />
             </div>        

@@ -10,7 +10,7 @@ export default function Header() {
       <S.Navbar>
         <ul>
             <Link to="/"><li>Início</li></Link>
-            <Link to="/Sobre"><li>Sobre mim</li></Link>
+            <Link to="/Sobre"><li>Sobre</li></Link>
             <Link to="/Projetos"><li>Projetos</li></Link>
         </ul>
       </S.Navbar>
